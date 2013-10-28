@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angularSkeletonApp', [
+angular.module('angularLibraryApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize'
