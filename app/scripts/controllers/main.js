@@ -2,9 +2,10 @@
 
 angular.module('angularLibraryApp')
   .controller('MainCtrl', function ($scope) {
+
     $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
+      'This is coming',
+      'from',
+      'Angular Library!'
     ];
   });
