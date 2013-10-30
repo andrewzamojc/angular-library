@@ -273,7 +273,7 @@ module.exports = function (grunt) {
         'copy:styles',
         'imagemin',
         'svgmin',
-        //'htmlmin'
+        'htmlmin'
       ]
     },
     karma: {
@@ -344,6 +344,7 @@ module.exports = function (grunt) {
     'ngmin',
     'cssmin',
     'uglify',
+    // Removed since we don't want hashes prefixed on our filenames in a library.
     //'rev',
     'usemin'
   ]);
