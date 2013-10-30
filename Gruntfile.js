@@ -116,7 +116,7 @@ module.exports = function (grunt) {
     less: {
       dev: {
         files: {
-          '<%= yeoman.app %>/styles/main.css': '<%= yeoman.app %>/less/main.less'
+          '<%= yeoman.app %>/styles/angular-library.css': '<%= yeoman.app %>/less/angular-library.less'
         }
       }
     },
