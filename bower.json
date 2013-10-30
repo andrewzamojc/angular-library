@@ -1,6 +1,6 @@
 {
   "name": "angular-library",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "dependencies": {
     "angular": "~1.0.7",
     "json3": "~3.2.4",
